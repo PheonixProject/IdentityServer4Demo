@@ -2,14 +2,13 @@
 using IdentityServer4.Test;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
-using System.Threading.Tasks;
 
 namespace AuthServer
 {
     public static class Config
     {
+        // Valid Users & Their claims
         public static List<TestUser> GetUsers()
         {
             return new List<TestUser>
@@ -33,7 +32,7 @@ namespace AuthServer
         }
 
         /// <summary>
-        /// Iden Resource map to scopes that give access to iden related claims
+        /// Identity Resource map to scopes that give access to iden related claims
         /// Api Resource map to scopes that give access to api resources
         /// </summary>
         /// <returns></returns>
@@ -86,6 +85,7 @@ namespace AuthServer
             };
         }
 
+        // Clients want to access resources (aka scopes)
         public static IEnumerable<Client> GetClients()
         {
             return new List<Client>
@@ -95,11 +95,32 @@ namespace AuthServer
                     ClientId = "ro.client",
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
 
+                    // Prevents redirection to consent page on login
+                    RequireConsent = false,
+
+                    //Ref token or Self Containted token (JWT)
+                    // Ref can be revoked instantly as it is validated with every call
+
+                    AccessTokenType = AccessTokenType.Reference,
+
+                    // Default 5 min
+                    AuthorizationCodeLifetime = 120,
+
+                    // Sliding means new token being requested updated lifetime
+                    // Wont exceeed absolute lifetime.
+                    //RefreshTokenExpiration = TokenExpiration.Sliding,
+
+                    // Claims will be updated when token refreshed
+                    UpdateAccessTokenClaimsOnRefresh = true,
+
+                    //Allows tokens to be refreshed 
+                    AllowOfflineAccess = true,
+
                     ClientSecrets =
                     {
                         new Secret("secret".Sha256())
                     },
-                    AllowedScopes = { "api1", "profile", "imagegalleryapi", "roles" }
+                    AllowedScopes = { "api1", "profile", "imagegalleryapi", "roles", "openid", "address" }
                 }
             };
         }

@@ -9,3 +9,13 @@ C:\Users\Aaron\source\repos\Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.A
 C:\Users\Aaron\source\repos\Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.pdb
 C:\Users\Aaron\source\repos\Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.dll
 C:\Users\Aaron\source\repos\Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.pdb
+C:\GIT\IdentityServer4Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.deps.json
+C:\GIT\IdentityServer4Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.runtimeconfig.json
+C:\GIT\IdentityServer4Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.runtimeconfig.dev.json
+C:\GIT\IdentityServer4Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.dll
+C:\GIT\IdentityServer4Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.pdb
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.csprojResolveAssemblyReference.cache
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.csproj.CoreCompileInputs.cache
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.AssemblyInfo.cs
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.dll
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.pdb

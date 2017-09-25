@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
-using IdentityModel.Client;
-using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+﻿using IdentityModel.Client;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using System;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace ApiExample.Controllers
 {
@@ -19,14 +18,17 @@ namespace ApiExample.Controllers
         {
             var caller = User as ClaimsPrincipal;
 
+            // Confirms that we are authorised - sub confirms a subject (User login) as apposed to a client login.
             var subjectClaim = caller.FindFirst("sub");
             if (subjectClaim != null)
             {
+                var moo = CallApiForData().GetAwaiter().GetResult();
                 return Json(new
                 {
                     message = "OK user",
                     client = caller.FindFirst("client_id").Value,
-                    subject = subjectClaim.Value
+                    subject = subjectClaim.Value,
+                    Address = moo // Value recevied from Auth API - not in token
                 });
             }
             else if (caller.FindFirst("client_id") != null)
@@ -41,23 +43,23 @@ namespace ApiExample.Controllers
             {
                 return Json(new
                 {
-                    Nope = "Nothing accessable by anything detected"
+                    Nope = "[You are not authenticated]"
                 });
             }
         }
 
+        // Call the Auth Server for user access details
         private async Task<string> CallApiForData()
         {
             var discoveryClient = new DiscoveryClient("http://localhost:52590/");
 
             var metaDataResp = await discoveryClient.GetAsync();
+            var accessToken = await HttpContext.Authentication.GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
 
             var userInfoClient = new UserInfoClient(metaDataResp.UserInfoEndpoint);
 
-            var accessToken = await HttpContext.Authentication
-                .GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
-
             var response = await userInfoClient.GetAsync(accessToken);
+            var claims = response.Claims;
 
             if (response.IsError)
             {
@@ -67,31 +69,6 @@ namespace ApiExample.Controllers
             var address = response.Claims.FirstOrDefault(x => x.Type == "address")?.Value;
 
             return address;
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }
