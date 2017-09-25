@@ -1,0 +1,11 @@
+c:\users\aaron\source\repos\Demo\Api.AuthServer\bin\Debug\netcoreapp2.0\Api.AuthServer.deps.json
+c:\users\aaron\source\repos\Demo\Api.AuthServer\bin\Debug\netcoreapp2.0\Api.AuthServer.runtimeconfig.json
+c:\users\aaron\source\repos\Demo\Api.AuthServer\bin\Debug\netcoreapp2.0\Api.AuthServer.runtimeconfig.dev.json
+c:\users\aaron\source\repos\Demo\Api.AuthServer\bin\Debug\netcoreapp2.0\Api.AuthServer.dll
+c:\users\aaron\source\repos\Demo\Api.AuthServer\obj\Debug\netcoreapp2.0\Api.AuthServer.csproj.CoreCompileInputs.cache
+c:\users\aaron\source\repos\Demo\Api.AuthServer\obj\Debug\netcoreapp2.0\Api.AuthServer.AssemblyInfoInputs.cache
+c:\users\aaron\source\repos\Demo\Api.AuthServer\obj\Debug\netcoreapp2.0\Api.AuthServer.AssemblyInfo.cs
+c:\users\aaron\source\repos\Demo\Api.AuthServer\bin\Debug\netcoreapp2.0\Api.AuthServer.pdb
+c:\users\aaron\source\repos\Demo\Api.AuthServer\obj\Debug\netcoreapp2.0\Api.AuthServer.csprojResolveAssemblyReference.cache
+c:\users\aaron\source\repos\Demo\Api.AuthServer\obj\Debug\netcoreapp2.0\Api.AuthServer.dll
+c:\users\aaron\source\repos\Demo\Api.AuthServer\obj\Debug\netcoreapp2.0\Api.AuthServer.pdb

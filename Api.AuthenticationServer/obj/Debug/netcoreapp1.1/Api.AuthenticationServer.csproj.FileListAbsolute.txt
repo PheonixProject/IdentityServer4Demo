@@ -1,0 +1,11 @@
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\bin\Debug\netcoreapp1.1\Api.AuthenticationServer.deps.json
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\bin\Debug\netcoreapp1.1\Api.AuthenticationServer.runtimeconfig.json
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\bin\Debug\netcoreapp1.1\Api.AuthenticationServer.runtimeconfig.dev.json
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\bin\Debug\netcoreapp1.1\Api.AuthenticationServer.dll
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\obj\Debug\netcoreapp1.1\Api.AuthenticationServer.csprojResolveAssemblyReference.cache
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\obj\Debug\netcoreapp1.1\Api.AuthenticationServer.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\obj\Debug\netcoreapp1.1\Api.AuthenticationServer.AssemblyInfoInputs.cache
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\obj\Debug\netcoreapp1.1\Api.AuthenticationServer.AssemblyInfo.cs
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\bin\Debug\netcoreapp1.1\Api.AuthenticationServer.pdb
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\obj\Debug\netcoreapp1.1\Api.AuthenticationServer.dll
+C:\Users\Aaron\source\repos\Demo\Api.AuthenticationServer\obj\Debug\netcoreapp1.1\Api.AuthenticationServer.pdb

@@ -1,0 +1,11 @@
+C:\Users\Aaron\source\repos\Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.deps.json
+C:\Users\Aaron\source\repos\Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.runtimeconfig.json
+C:\Users\Aaron\source\repos\Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.runtimeconfig.dev.json
+C:\Users\Aaron\source\repos\Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.dll
+C:\Users\Aaron\source\repos\Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.csprojResolveAssemblyReference.cache
+C:\Users\Aaron\source\repos\Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\source\repos\Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.AssemblyInfoInputs.cache
+C:\Users\Aaron\source\repos\Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.AssemblyInfo.cs
+C:\Users\Aaron\source\repos\Demo\ApiExample\bin\Debug\netcoreapp1.1\ApiExample.pdb
+C:\Users\Aaron\source\repos\Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.dll
+C:\Users\Aaron\source\repos\Demo\ApiExample\obj\Debug\netcoreapp1.1\ApiExample.pdb

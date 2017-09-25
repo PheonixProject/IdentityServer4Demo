@@ -1,0 +1,17 @@
+c:\users\aaron\source\repos\Demo\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+c:\users\aaron\source\repos\Demo\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\Client.exe.config
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\Client.exe
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\Client.pdb
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\IdentityModel.dll
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\Newtonsoft.Json.dll
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\System.Net.Http.dll
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\System.Security.Cryptography.Algorithms.dll
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\System.Security.Cryptography.Encoding.dll
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\System.Security.Cryptography.Primitives.dll
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\System.ValueTuple.dll
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\IdentityModel.xml
+c:\users\aaron\source\repos\Demo\Client\bin\Debug\Newtonsoft.Json.xml
+c:\users\aaron\source\repos\Demo\Client\obj\Debug\Client.exe
+c:\users\aaron\source\repos\Demo\Client\obj\Debug\Client.pdb
