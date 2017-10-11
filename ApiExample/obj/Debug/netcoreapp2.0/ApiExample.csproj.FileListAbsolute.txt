@@ -1,0 +1,11 @@
+C:\GIT\IdentityServer4Demo\ApiExample\bin\Debug\netcoreapp2.0\ApiExample.deps.json
+C:\GIT\IdentityServer4Demo\ApiExample\bin\Debug\netcoreapp2.0\ApiExample.runtimeconfig.json
+C:\GIT\IdentityServer4Demo\ApiExample\bin\Debug\netcoreapp2.0\ApiExample.runtimeconfig.dev.json
+C:\GIT\IdentityServer4Demo\ApiExample\bin\Debug\netcoreapp2.0\ApiExample.dll
+C:\GIT\IdentityServer4Demo\ApiExample\bin\Debug\netcoreapp2.0\ApiExample.pdb
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp2.0\ApiExample.csprojResolveAssemblyReference.cache
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp2.0\ApiExample.csproj.CoreCompileInputs.cache
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp2.0\ApiExample.AssemblyInfoInputs.cache
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp2.0\ApiExample.AssemblyInfo.cs
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp2.0\ApiExample.dll
+C:\GIT\IdentityServer4Demo\ApiExample\obj\Debug\netcoreapp2.0\ApiExample.pdb

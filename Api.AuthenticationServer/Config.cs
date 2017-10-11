@@ -23,7 +23,8 @@ namespace AuthServer
                         new Claim("given_name", "Cascade"),
                         new Claim("family_name", "Support"),
                         new Claim("address", "533, Some Place"),
-                        new Claim("role", "admin"),
+                        new Claim("role", "newstarter"),
+                        new Claim("role", "wizards"),
                         new Claim("country", "uk"),
                         new Claim("subscriptionlevel", "Admin")
                     }

@@ -1,0 +1,11 @@
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\bin\Debug\netcoreapp2.0\Api.AuthenticationServer.deps.json
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\bin\Debug\netcoreapp2.0\Api.AuthenticationServer.runtimeconfig.json
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\bin\Debug\netcoreapp2.0\Api.AuthenticationServer.runtimeconfig.dev.json
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\bin\Debug\netcoreapp2.0\Api.AuthenticationServer.dll
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\bin\Debug\netcoreapp2.0\Api.AuthenticationServer.pdb
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\obj\Debug\netcoreapp2.0\Api.AuthenticationServer.csprojResolveAssemblyReference.cache
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\obj\Debug\netcoreapp2.0\Api.AuthenticationServer.csproj.CoreCompileInputs.cache
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\obj\Debug\netcoreapp2.0\Api.AuthenticationServer.AssemblyInfoInputs.cache
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\obj\Debug\netcoreapp2.0\Api.AuthenticationServer.AssemblyInfo.cs
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\obj\Debug\netcoreapp2.0\Api.AuthenticationServer.dll
+C:\GIT\IdentityServer4Demo\Api.AuthenticationServer\obj\Debug\netcoreapp2.0\Api.AuthenticationServer.pdb
